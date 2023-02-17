@@ -1,0 +1,18 @@
+﻿  Waiter.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\memory(3437,35): error C2661: 'std::tuple<void (__cdecl Cooker::* )(std::future<std::vector<int,std::allocator<int>>>),Cooker *,std::future<std::vector<int,std::allocator<int>>>>::tuple': no overloaded function takes 3 arguments
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\thread(66): message : see reference to function template instantiation 'std::unique_ptr<_Tuple,std::default_delete<_Tuple>> std::make_unique<_Tuple,_Ty,Cooker*,std::future<std::vector<int,std::allocator<int>>>&,0>(_Ty &&,Cooker *&&,std::future<std::vector<int,std::allocator<int>>> &)' being compiled
+          with
+          [
+              _Ty=void (__cdecl Cooker::* )(std::future<std::vector<int,std::allocator<int>>>)
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\thread(89): message : see reference to function template instantiation 'void std::thread::_Start<_Ty,Cooker*,std::future<std::vector<int,std::allocator<int>>>&>(_Fn &&,Cooker *&&,std::future<std::vector<int,std::allocator<int>>> &)' being compiled
+          with
+          [
+              _Ty=void (__cdecl Cooker::* )(std::future<std::vector<int,std::allocator<int>>>),
+              _Fn=void (__cdecl Cooker::* )(std::future<std::vector<int,std::allocator<int>>>)
+          ]
+D:\Elouan\Git\parrallelism3\parrallelism3\Waiter.cpp(6): message : see reference to function template instantiation 'std::thread::thread<void(__cdecl Cooker::* )(std::future<std::vector<int,std::allocator<int>>>),Cooker*,std::future<std::vector<int,std::allocator<int>>>&,0>(_Fn &&,Cooker *&&,std::future<std::vector<int,std::allocator<int>>> &)' being compiled
+          with
+          [
+              _Fn=void (__cdecl Cooker::* )(std::future<std::vector<int,std::allocator<int>>>)
+          ]

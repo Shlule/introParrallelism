@@ -1,0 +1,3 @@
+﻿  parrallelism.cpp
+D:\Elouan\Git\parrallelism\parrallelism\parrallelism.cpp(84): warning C4715: 'getCoef': not all control paths return a value
+  parrallelism.vcxproj -> D:\Elouan\Git\parrallelism\x64\Debug\parrallelism.exe
